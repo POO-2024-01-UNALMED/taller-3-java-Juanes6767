@@ -41,7 +41,7 @@ public class TV {
 		}
 	}
 	public void volumenUp() {
-		if(0<volumen && volumen<7 && estado==true) {
+		if(volumen<7) {
 		setVolumen(volumen+1);
 		}
 	}
