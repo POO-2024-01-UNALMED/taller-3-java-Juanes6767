@@ -41,9 +41,7 @@ public class TV {
 		}
 	}
 	public void volumenUp() {
-		if(volumen<7) {
 		setVolumen(volumen+1);
-		}
 	}
 	public void volumenDown() {
 		if(volumen>1) {
