@@ -41,7 +41,7 @@ public class TV {
 		}
 	}
 	public void volumenUp() {
-		if(0<canal && canal<121 && estado==true)
+		if(0<volumen && volumen<8 && estado==true)
 		setVolumen(volumen+1);
 	}
 	public void volumenDown() {
