@@ -31,12 +31,12 @@ public class Control {
 		}
 	}
 	public void volumenUp() {
-		if(tv.getEstado()==true) {
+		if(tv.getEstado()==true && tv.getVolumen()<7) {
 		tv.volumenUp();
 		}
 	}
 	public void volumenDown() {
-		if(tv.getEstado()==true) {
+		if(tv.getEstado()==true && tv.getVolumen()>1) {
 		tv.volumenDown();
 		}
 	}
