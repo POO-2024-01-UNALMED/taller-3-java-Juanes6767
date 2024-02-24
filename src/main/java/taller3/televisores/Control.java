@@ -42,11 +42,9 @@ public class Control {
 	}
 
 	public void setCanal(int canal) {
-		if(canal<8 && canal>0)
 		tv.setCanal(canal);
 	}
 	public void setVolumen(int volumen) {
-		if(volumen<=7 && volumen >=1) {
 		tv.setVolumen(volumen);
-	}}
+	}
 }
