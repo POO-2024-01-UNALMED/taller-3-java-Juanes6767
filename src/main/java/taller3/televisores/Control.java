@@ -44,7 +44,7 @@ public class Control {
 	public void setCanal(int canal) {
 		tv.setCanal(canal);
 	}
-	public void setVolume(int volume) {
+	public void setVolumen(int volume) {
 		tv.setVolumen(volume);;
 	}
 }
