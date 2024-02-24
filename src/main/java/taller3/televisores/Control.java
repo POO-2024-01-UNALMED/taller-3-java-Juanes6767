@@ -21,25 +21,17 @@ public class Control {
 		return tv;
 	}
 	public void canalUp() {
-		if(tv.getEstado()==true) {
 		tv.canalUp();
-		}
 	}
 	public void canalDown() {
-		if(tv.getEstado()==true) {
 		tv.canalDown();
-		}
 	}
 	public void volumenUp() {
-		if((tv.getEstado()==true) && (tv.getVolumen()<7)) {
 		tv.volumenUp();
-		}
 	}
 	public void volumenDown() {
-		if((tv.getEstado()==true) && (tv.getVolumen()>1)) {
 		tv.volumenDown();
 		}
-	}
 
 	public void setCanal(int canal) {
 		tv.setCanal(canal);
