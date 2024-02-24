@@ -23,7 +23,7 @@ public class TV {
 	public void turnOn() {
 		this.estado=true;
 	}
-	public int getNumTV() {
+	static public int getNumTV() {
 		return numTV;
 	}
 	static public void setNumTV(int numTV) {
